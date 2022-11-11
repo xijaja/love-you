@@ -7,7 +7,7 @@
     <h1 class="py-4 font-mono text-pink-400 dark:text-white">
       {"❤️ " + say + " ❤️"}
     </h1>
-    <hr class="py-4 dark:border-gray-500" />
+    <hr class="py-4 border-pink-100 dark:border-gray-500" />
     <!-- 这里是子组件 -->
     <slot />
   </div>
