@@ -1,8 +1,5 @@
-<script></script>
-
-<section>
-  <canvas id="canvas" width="805" height="946" />
-  <script>
+<script>
+  setTimeout(() => {
     var canvas = document.getElementById("canvas");
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
@@ -275,7 +272,11 @@
     }
 
     draw();
-  </script>
+  });
+</script>
+
+<section>
+  <canvas id="canvas" width="805" height="946" />
 </section>
 
 <style>
